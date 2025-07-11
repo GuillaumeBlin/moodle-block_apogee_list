@@ -16,10 +16,10 @@
 
 /**
  *
- * @package    block_vpl_pylab
+ * @package    block_apogee_list
  * @copyright  2016 Guillaume Blin
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['pluginname'] = 'VPL pylab';
-$string['vpl_pylab:addinstance'] = 'Add a VPL Pylab block';
+$string['pluginname'] = 'Apogee List';
+$string['apogee_list:addinstance'] = 'Add a Apogee List block';
