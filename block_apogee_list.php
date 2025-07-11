@@ -20,18 +20,18 @@ require_once(dirname(__FILE__) . '/../../config.php');
 global $CFG, $DB;
 
 /**
- * Block vpl_pylab class definition.
+ * Block apogee_list class definition.
  *
  * This block can be added to a vpl page to support brython for feedback
  *
- * @package    block_vpl_pylab
+ * @package    block_apogee_list
  * @copyright  2016 Guillaume Blin
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class block_vpl_pylab extends block_base {
+class block_apogee_list extends block_base {
 
   function init() {
-    $this->title = get_string('pluginname', 'block_vpl_pylab');
+    $this->title = get_string('pluginname', 'block_apogee_list');
   }
 
   function applicable_formats() {
@@ -50,7 +50,7 @@ class block_vpl_pylab extends block_base {
     $this->content->icons = array();
     $this->content->footer = '';
     $id=$this->page->course->id;
-    $p=substr($_SERVER['PHP_SELF'],0,strpos($_SERVER['PHP_SELF'],'mod/vpl')).'blocks/vpl_pylab';
+    $p=substr($_SERVER['PHP_SELF'],0,strpos($_SERVER['PHP_SELF'],'mod/vpl')).'blocks/apogee_list';
     $this->content->text="";
     var script_sources = $this->config->config_script_src.split(",");
     for (var x = 0; x < script_sources.length; x++) {
