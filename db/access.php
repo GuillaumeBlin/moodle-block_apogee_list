@@ -16,7 +16,7 @@
 
 /**
  *
- * @package    block_vpl_brython
+ * @package    block_apogee_list
  * @copyright  2016 Guillaume Blin
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -24,7 +24,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $capabilities = array(
-    'block/vpl_pylab:myaddinstance' => array(
+    'block/apogee_list:myaddinstance' => array(
         'captype' => 'write',
         'contextlevel' => CONTEXT_BLOCK,
         'archetypes' => array(
@@ -32,7 +32,7 @@ $capabilities = array(
         ),
         'clonepermissionsfrom' => 'moodle/my:manageblocks'
     ),
-    'block/vpl_pylab:addinstance' => array(
+    'block/apogee_list:addinstance' => array(
         'captype' => 'write',
         'contextlevel' => CONTEXT_BLOCK,
         'archetypes' => array(
