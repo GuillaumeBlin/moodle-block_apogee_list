@@ -15,9 +15,9 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Version information for the block_vpl_brython plugin.
+ * Version information for the block_apogee_list plugin.
  *
- * @package    block_vpl_brython
+ * @package    block_apogee_list
  * @copyright  2016 Guillaume Blin
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -26,4 +26,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->version   = 2016092401;
 $plugin->requires  = 2016051900;        // Requires this Moodle version
-$plugin->component = 'block_vpl_pylab'; // Full name of the plugin (used for diagnostics)
+$plugin->component = 'block_apogee_list'; // Full name of the plugin (used for diagnostics)
